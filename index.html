@@ -20,18 +20,37 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="" placeholder="Имя" required />
+                        <input class="form__input" 
+                            type="text" 
+                            name="name" 
+                            minlength=2 
+                            maxlength=20 
+                            pattern="^[А-ЯЁ][а-яё]+(\-[А-ЯЁ][а-яё]*)?$" placeholder="Имя" required>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="email" name="name" pattern="" placeholder="E-Mail" />
+                        <input class="form__input" 
+                            type="email" 
+                            name="name" 
+                            placeholder="E-Mail"
+                            pattern="^[a-z0-9][a-z0-9\-\.]+@[a-z0-9\-]+\.[a-z]{2,}$">
                         <span class="form__error">e-mail в формате: sega@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="tel" name="name" placeholder="Телефон" pattern="" minlength="" maxlength="" />
+                        <input class="form__input" 
+                            type="tel" 
+                            name="name" 
+                            minlength="11"
+                            maxlength="" 
+                            placeholder="Телефон" 
+                            pattern="^(\+7|8)(\s|\-)?(\(|\-)?\d{3}(\)|\-)?(\s|\-)?\d{3}(\-|\s)?\d{2}(\-|\s)?\d{2}$">
                         <span class="form__error">телефон в формате: +7 (123) 456-78-90</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="url" name="name" pattern="" placeholder="Ваш сайт" />
+                        <input class="form__input" 
+                            type="url" 
+                            name="name" 
+                            placeholder="Ваш сайт"                            
+                            pattern="^(http|https):\/\/(((www\.)?(([a-z0-9\-]+\.)?[a-z0-9\-]+\.[a-z]{2,}(\/[a-z0-9\/]+)?#?$))|((((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9])))(\:\d{2,5})?$))">
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
