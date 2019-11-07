@@ -1,7 +1,9 @@
 # RegExp
-## ver 0.0.5 from 07.11.2019
+## ver 0.0.6 from 08.11.2019
 *****
-### Short about: its registration form.
+### Short about: its registration form
+
+##### Try it on: [GitHub Pages](https://somedew.github.io/regexp/)
 
 -----
 
