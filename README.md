@@ -1,5 +1,5 @@
 # RegExp
-## ver 0.0.6 from 08.11.2019
+## ver 0.0.7 from 09.11.2019
 *****
 ### Short about: its registration form
 
