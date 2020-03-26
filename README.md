@@ -1,4 +1,4 @@
-# formValidation
+# FormValidation
 ## ver 1.0.0
 ---
 
@@ -42,4 +42,4 @@ This project is registration form with validation, based by regular expressions.
 - not fourd
 
 -----
-> Feel free to ask your questions **@dewandrew**
+> Feel free to ask your questions in [telegram](http://t.me/dewandrew)
