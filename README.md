@@ -7,8 +7,9 @@
 Hi! And wellcome.
 This project is registration form with validation, based by regular expressions. No use any scripts, only HTML5 features!
 
+<div align="center">
 [![formvalidation screenshot](https://avatars.mds.yandex.net/get-pdb/2732355/e43f7ad4-d43e-464d-8ec2-53695b60cc98/s1200 "github.io/form-validation")](https://frontandrew.github.io/form-validation/)
-
+</div>
 ---
 
 ### Features:
