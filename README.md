@@ -5,7 +5,7 @@
 ### About:
 
 Hi! And wellcome.
-This project is registration form with validation, based by regular expressions. No use any scripts, only HTML5 features!
+This project is registration form with validation, based by regular expressions. No use any scripts, only HTML5 features! You can [try it](https://frontandrew.github.io/form-validation/)
 
 <div align="center">
 
